@@ -46,6 +46,7 @@ a,
     background-color: #1F2937;
     display: flex;
     padding: 100px 20%;
+    padding-bottom: 150px;
     gap: 5%;
     align-items: center;
 }
@@ -68,9 +69,62 @@ button {
     flex: 1;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.logo-flex {
+    justify-content: center;
+    gap: 64px;
+}
+
+.logo-flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.small-logo {
+    max-width: 150px;
+    border: 3px solid skyblue;
+    border-radius: 15px;
+}
+
+.part2,
+.part3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 20% 120px 20%;
+    gap: 32px;
+}
+
+.part3 {
+    background-color: #E5E7EB;
+    padding-bottom: 50px;
+    gap: 8px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author-sign {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
 .part1,
 .part2,
 .part3,
-.part4 {
+.part4,
+.logo-flex {
     display: flex;
 }
